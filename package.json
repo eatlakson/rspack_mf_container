@@ -1,0 +1,15 @@
+{
+  "name": "federation-example",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "wsrun --parallel -p @mftest/host -c start",
+    "build-rspack": "yarn workspace @mftest/host build-rspack",
+    "build-webpack": "yarn workspace @mftest/host build-webpack"
+  },
+  "devDependencies": {
+    "wsrun": "^5.2.0"
+  }
+}

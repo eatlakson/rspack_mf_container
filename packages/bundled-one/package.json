@@ -1,0 +1,13 @@
+{
+  "name": "@mf/bundled-one",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {},
+  "main": "./index.js",
+  "dependencies": {
+    "react": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.2"
+  }
+}
