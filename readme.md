@@ -13,14 +13,14 @@ We can see how this works for Webpack, but does not work for Rspack.
 
 ## Webpack
 
-1. build the packages: `yarn build-webpack`
+1. build the packages: `yarn build:webpack`
 2. start the server: `yarn start`
 3. navigate to [http://localhost/](http://localhost/)
 4. app loads without issue
 
 ## Rspack
 
-1. build the packages: `yarn build-rspack`
+1. build the packages: `yarn build:rspack`
 2. start the server: `yarn start`
 3. navigate to [http://localhost/](http://localhost/)
 4. app is unable to load

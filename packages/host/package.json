@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "start": "serve dist -p 80",
-    "build-rspack": "rspack build --mode development",
-    "build-webpack": "webpack --mode development"
+    "build:rspack": "rspack build --mode development",
+    "build:webpack": "webpack --mode development"
   },
   "dependencies": {
     "@module-federation/enhanced": "^0.0.16",
